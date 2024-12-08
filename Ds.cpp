@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
+#include <fstream>
 using namespace std;
+#pragma once
 
 template <typename T>
 struct node // The initialize of the node struct
@@ -209,4 +211,6 @@ public:
     }
     // 9.Get number of nodes
     int GetCapacity() { return Capacity; }
+    // 10.Get 
+
 };
